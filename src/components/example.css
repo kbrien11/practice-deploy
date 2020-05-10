@@ -1,0 +1,1610 @@
+* {
+    background-color:#f5f5f5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+     margin: 0;  
+    box-sizing: border-box;
+}
+.firstnav a{
+    background-color: lightskyblue;
+    
+    float: left;
+    margin-top: 1%;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 7px;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 12px;
+    border-bottom: 3px solid transparent;
+}
+.firstnav a:hover{
+    border-bottom: 3px solid black;
+    
+}
+.cardss {
+    background-color: lightskyblue;
+}
+.cardss img{
+    float: right;
+    width: 20px;
+    background-color: lightskyblue;
+    max-width: 60px;
+  width: 100%;
+  border-radius: 50%;
+}
+.cardss p{
+    background-color: lightskyblue;
+    float: right;
+}
+.mess{
+    border: 2px solid #dedede;
+    border-color: #ccc;
+    /* position: fixed; */
+    background-color: #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0;
+ 
+}
+.mess p{
+    background-color: #ddd;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.mess img{
+    float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+.time-right {
+    float: right;
+    background-color: #ddd;
+    color: #aaa;
+    margin-top: 40px;
+  }
+  .time-right p{
+      margin-top: 50px;
+      color: black;
+      
+  }
+  .mess::after {
+    content: "";
+    clear: both;
+    background-color: #ddd;
+    display: table;
+  }
+body {
+    margin: 0;;
+}
+.key {
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: purple;
+}
+.email {
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: purple;
+}
+.holder {
+    text-align: center;
+    margin-left: 300px;
+}
+
+.homesearch {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+     margin-bottom: 2%; 
+}
+.homesearch input {
+    text-align: center;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    justify-content: center;
+    background-color: "#f5f5f5"; 
+    font-weight: bold;
+     /* border-right: inherit; */
+  
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 150%;
+    width: 35%;
+    height: 150%;
+    /* margin-top: 5px; */
+    background-color: white;
+}
+.homesearch button {
+    /* border-left: inherit; */
+    margin-left: 10px;
+    background-color: inherit;
+    width: 95px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 20PX;
+}
+.homesearch button:hover {
+    background-color: lightskyblue;
+}
+.homesearchs button:hover {
+    background-color: lightskyblue;
+}
+
+label {
+    text-decoration: none;
+    border-bottom: inherit;
+}
+.firstnav h2{
+    background-color: lightskyblue;
+    padding-left: 10px;
+    font-size: 50px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.star {
+    
+    cursor: pointer;
+    transition: color 200ms;
+    text-decoration: none;
+    border-bottom: inherit;
+    text-align: left;
+}
+
+.starInput {
+    display: none;
+    text-decoration: none;
+    border-bottom: inherit;
+    text-align: left;
+}
+label{
+    text-align: left;
+}
+.menulink a {
+    background-color: #f5f5f5;
+    text-decoration: none;
+    font-size: 20px;
+    color:lightskyblue;
+}
+
+.starcity {
+    background-color: white;
+    color: goldenrod;
+    
+}
+
+.signupCard {
+    display: inline-block;
+   
+    box-shadow: 0px 5px 25px #aaa;
+   
+    margin-top: 30px;
+    margin-left: 30%;
+    justify-content: center;
+    /* border-style:double;
+    border-color: gray; */
+    width: 30%;
+    background-color: white;
+    height: 530px;
+    margin-bottom: 17%;
+}
+/* .card {
+    /* margin-left: 100%;
+    height: 200px; 
+} */
+
+.loginError{
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: blue;
+    color: red;
+    background-color: red;
+}
+
+.loginError p{
+    background-color: red;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+.flex-items{
+        /* padding: 5px; */
+        height: 500px;
+        width: 550px;
+        /* margin: 20%;
+        line-height: 20px; */
+        color: white;
+        font-weight: bold;
+        font-size: 2em;
+        text-align: center;
+        margin: 15px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-shadow: 0px 5px 25px #aaa;
+        border-radius: 10px;
+        margin-top: inherit;
+        background-color: white;
+    }
+
+    
+  .flex-item {
+   margin-top: 30px;
+    background-color: white;
+    /* padding: 5px; */
+    height: 470px;
+    width: 500px;
+    margin-left: 500px;
+    /* margin: 20%;
+    line-height: 20px; */
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: 0px 5px 25px #aaa;
+    border-radius: 10px;
+}
+.signincard{
+    justify-content: center;
+    width: 400px;
+    display: block;
+    margin-top: 4%;
+    margin-bottom: 17%;
+   
+    margin-left: 40%;
+    background-color: white;
+    height: 500px;
+}
+.signinimg {
+    background-color: white;
+    text-align: left;
+}
+.signinimg img{
+    width:100px;
+}
+.navimg{
+    padding-top: 10px;
+    background-color: lightskyblue;
+    padding-bottom: 10px;
+  margin-left: 200px;
+}
+
+.firstnav{
+    border-bottom: inherit;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid black; 
+    background-color: blueviolet;
+    color: #888;
+    /* overflow: hidden; */
+     /* position: fixed;  */
+    
+}
+   .nav_wrapper {
+    margin-bottom: 10px;
+    
+   
+}   
+
+.navbar{
+    /* width: 1800px; */
+    /* width: 428%; */
+    width: 100%  !important;
+    border: 1px solid black; 
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    color: #888;
+    display: block;
+    overflow: hidden;
+    position: relative;
+
+}
+.navbars h2 {
+   background-color: purple;
+   margin-top: 5px;
+   font-size: 40px;
+   
+}
+.navbars {
+    width: 100%  !important;
+    border: 1px solid black; 
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    color: #888;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    background-color: purple;
+}
+.friends {
+    padding-right: 50px;
+}
+.reviewss {
+    margin-top: 80px;
+    padding-right: 80px;
+    border-right: inherit;
+}
+
+.reviewss p{
+    justify-content: center;
+    border-right: inherit;
+} 
+.reviewss button {
+    border-right: inherit;
+    border-bottom: inherit;
+    justify-content: center;
+    text-align: center;
+}
+.pendingoutput p {
+    border-right: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.reviewss hr {
+    border-style: double;
+}
+
+
+.userreviews {
+    text-align: left;
+    justify-content: 'center';
+    font-weight: bold;
+    
+}
+.userreviews p{
+    color:black;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+.userrest{
+    text-align: center;
+    justify-content: center;
+}
+.userrest p{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.usercity {
+    text-align: center;
+    justify-content: center;
+    
+}
+.userinput {
+    text-align: center;
+    justify-content: center;
+    background-color:#f5f5f5;
+    margin-top: 30px;
+
+}
+.userinput input {
+    background-color: white;
+    width: 35%;
+    text-align: center;
+    justify-content: center;
+   
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* .userinput button {
+    text-align: center;
+    width: 10%;
+    margin-top: 10px;
+    background-color: lightgrey;
+    border-radius: 40px;
+    border-style: double;
+    border-color:black;
+    font-weight: bold ;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+} */
+.mainheader {
+    text-align: center;
+    background-color:#f5f5f5;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.glow {
+    font-size: 80px;
+    color: lightskyblue ;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    
+
+  }
+
+
+  
+  .userline{
+      border-top: 3px dotted purple;
+  }
+
+  .imageload{
+      text-align: center;
+      justify-content: center;
+      margin-top: 20px;
+      background-color: white !important;
+      height: 30px;
+      width: 90px;
+      margin-left: 200px; 
+  }
+  .imagecontainer {
+      color: white !important;
+  }
+  .imagesload {
+      background-color: inherit;
+  }
+  .imagesload input {
+      background-color: white  !important;
+      color: red;
+      width: 40px;
+  }
+  .imagesload button {
+      background-color: white  !important;
+      color: red;
+      width: 50px;
+  }
+  .signuplink {
+      background-color: white;
+      margin-top: 5px;
+      color:lightskyblue;
+      background-color:white;
+      font-weight: bold;
+  }
+  .signuplink a{
+      background-color: white;
+    color:lightskyblue;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 1%;
+  }
+
+  .signuplink a:hover {
+      margin-top: 10px;
+    border-bottom: 3px solid black;
+  }
+  .logoutnavbar {
+      background-color: lightskyblue;
+      margin-top: 1%;
+      margin-left: 50%;
+  }
+ 
+  
+
+  .signupcontainer {
+      padding-left: 15px;
+      text-align: left;
+      margin-top: 15px;
+      color:black;
+      background-color: white;
+  }
+ 
+
+  .imageinputcontainer {
+      background-color: white;
+  }
+  .loginbutton{
+      background-color: white;
+      text-align: center;
+    
+      
+     
+     
+  }
+    .loginbutton button {
+        margin-top: 20px;
+      width: 30%;
+      background-color: lightgrey;
+      border-radius: 40px;
+      border-style: double;
+      border-color:black;
+      font-weight: bold ;
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .loginpass{
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    
+  }
+
+  .loginpass input {
+    width: 50%;
+    margin-top: 10%;
+    background-color: white;
+    border-bottom:solid;
+    border-left: inherit;
+    border-top: inherit;
+    border-right: inherit;
+  }
+
+  .loginemail {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 30px;
+  }
+  .loginemail input {
+      width: 50%;
+      margin-top: 10%;
+      background-color: white;
+      border-bottom:solid;
+      border-left: inherit;
+      border-top: inherit;
+      border-right: inherit;
+  }
+
+  .logoutbutton {
+      background-image: linear-gradient(rgb(26, 6, 26),plum,rgb(26, 6, 26));
+      color:white;
+      border-radius: 80px;
+      border-style: solid;
+      border-color:purple;
+      font-weight: bold ;
+      font-size: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      width: 100px;
+      cursor: pointer;
+  }
+.logout {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+  .filterRet {
+      background-color:#888 ;
+      height: 150px;
+      width: 150px;
+      border-style: ridge;
+      border-color: purple;
+  }
+
+  .drop {
+      margin-top: 20px;
+    background-color: inherit;
+    display: inline-block;
+    color: lightskyblue;
+    border-radius: 15px;
+    border-style: solid;
+    border-color:black;
+    font-weight: bold ;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 180px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 120px;
+    margin-bottom: 1%;
+  }
+  .notification {
+    background-color: #555;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  .notification:hover {
+    background:inherit;
+  }
+  
+  .notification .badge {
+    /* position: absolute; */
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: inherit;
+    color: black;
+  }
+  .inboxcard{
+    background-color: lightskyblue;
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+.inboxcard h4{
+ color: red;
+ padding-left: 10px;
+ border-style: solid;
+ margin-left: 10px;
+ border-right: inherit ;
+ background-color: lightskyblue;
+}
+.inboxcard p{
+    background-color: lightskyblue;
+    color: red;
+    border-left: inherit;
+    border-style: solid;
+    padding-left: 5px;
+    padding-right: 10px;
+  
+}
+  .drops {
+    background-color: inherit;
+    display: inline-block;
+    color: black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color:black;
+    font-weight: bold ;
+   text-align: left;
+    font-weight: bold;
+    font-size: 180px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-left: 500px; */
+    font-size: 16px;
+    justify-content: left;
+    cursor: pointer;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 100px;
+    margin-top: 50%;
+    /* margin-left: 560px; */
+   
+  }
+  .dropdown i{
+      color: black;
+      height: 20px;
+
+  }
+  
+  .userButton {
+    float:left;
+    width:100%;
+    text-align:center;
+  }
+  .userActionButton{
+    background: #00b7ff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black;
+  display: inline-block;
+    font-weight: bold;
+    margin: 0 0 20px;
+    padding: 14px 0;
+    text-align: center;
+    width: 200px;
+  }
+  
+.drop:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .drops:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .dropdown p {
+      margin-top: 10px;
+  }
+  
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    margin-left: 23%;
+    
+    }
+    .dropdowns{
+        width: 2%;
+        position: absolute;
+    }
+  .dropdowns p{
+      text-align: center;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 150px;
+    /* height: 300px; */
+   margin-bottom: 10px;
+    z-index: 1;
+  }
+  .dropdowns-contents {
+    display:none;
+    /* position: absolute; */
+    
+    background-color:#f5f5f5;
+    min-width: 100px;
+    /* height: 45px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content button {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    padding: 12px 16px; 
+    font-family: cursive;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    background-color:inherit;
+  }
+  .dropdowns-contents button {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    /* padding: 6px 8px;  */
+    font-family: cursive;
+    
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    background-color:black;
+  }
+  
+  .dropdown-content button:hover {background-color:lightskyblue}
+  .dropdowns-contents button:hover {background-color:lightskyblue}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdowns:hover .dropdowns-contents {
+    display: block;
+  }
+  
+  .dropdowns:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+  .footer{
+    width: 1730px;
+    text-align: center;
+    border: 1px solid black; 
+    /* border-radius: 4px; */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    color: lightskyblue;
+    display: block;
+}
+.footertext {
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    background-color: lightskyblue;
+}
+
+
+
+.drop span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.drop span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.drop:hover span {
+  padding-right: 25px;
+}
+
+.drop:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.Signup h2 {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+.signuph2 {
+    background-color: white;
+    font-size: 20px;
+    color:lightskyblue;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: dotted;
+    border-bottom-style: groove;
+    color:black;
+}
+.signuph2 h2{
+    color: lightskyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.signupimg{
+    background-color: white;
+    
+}
+.signupimg p{
+    background-color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkgrey;
+    box-shadow: lightgreen;
+
+}
+.signupimg img{
+    width:100px;
+    color: black;
+}
+.signupemail {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 40px;
+}
+.signupemail input {
+    width: 50%;
+    background-color: white;
+    border-bottom:solid;
+    border-left: white;
+    border-top: inherit;
+    border-right: inherit;
+}
+form {
+    background-color: inherit;
+}
+
+.signuppass input {
+    width: 50%;
+
+    background-color: white;
+    border-bottom:solid;
+    border-left: white;
+    border-top: inherit;
+    border-right: inherit;
+}
+.signuppass {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 40px;
+}
+.signupfirst {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 40px;
+}
+.signupfirst input {
+    width: 50%;
+    background-color: white;
+    border-bottom:solid;
+    border-left: white;
+    border-top: inherit;
+    border-right: inherit;
+
+}
+.signuplast input {
+    width: 50%;
+
+    background-color: white;
+    border-bottom:solid;
+    border-left: white;
+    border-top: inherit;
+    border-right: inherit;
+}
+.signuplast {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.signupinput {
+ text-align: center;
+ justify-content: center;
+ margin-left: 50px;
+ margin-top: 15px;
+ background-color: white;
+}
+.signupinput input{
+    background-color: white;
+}
+
+.signinimage {
+ width: 2%;
+ margin-left: 10%;
+}
+
+.signincontainer {
+    background-color:inherit;
+    text-align: center;
+    height: 100px;
+}
+
+.revbutton{
+    text-align: left;
+    margin-right:70%;
+    
+}
+.revbutton Button{
+    font-weight: bold;
+    border-bottom: solid;
+    font-size: 25px;
+    width: 40%;
+}
+
+
+.restbutton{
+    text-align: center;
+  
+}
+.restbutton button{
+    font-weight: bold;
+    border-bottom: solid;
+    font-size: 25px;
+    margin-right: 50%;
+    
+}
+
+.userbuttons button{
+   border-right: inherit;
+   border-bottom: inherit;
+   margin-top: 30px;
+   font-size: 20px;
+   background-color:lightblue;
+}
+.reviews p {
+    margin-top: 20%;
+    margin-left: 70%;
+    font-weight: bold;
+}
+.restaurants {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.restaurants p {
+    margin-top: 2%; 
+    
+}
+.rows > .colums {
+    padding: 80px;
+    margin-top: -30PX;
+    border-right: inherit;
+    margin-bottom: 20px;
+}
+.row > .column {
+    padding: 80px;
+    margin-top: -30PX;
+    border-right: inherit;
+    margin-bottom: 20px;
+  }
+  .columns p {
+    text-align: center;
+    justify-content: center;
+    border-width: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .column p{
+      text-align: center;
+      justify-content: center;
+      border-width: 5px;
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+  }
+  .column button {
+      border-right: inherit;
+      font-size: 20px;
+      border-bottom: inherit;
+      /* border-bottom:dashed;
+      border-bottom-color: purple;
+      border-bottom-width: 5px; */
+  }
+  .column {
+    float: left;
+    width: 33%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .columns {
+    float: left;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px; 
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+.cities p{
+    margin-top: 30px;
+}
+.column hr{
+    border-color: black;
+    border-style:solid;
+}
+.profilehr{
+    border-radius: 0px;
+    border-bottom-width: 0px;
+    color: purple;
+}
+.profilehr hr{
+   
+    color: purple;
+}
+.reviews button {
+  border-bottom: solid;
+   font-size: 25px;
+   margin-top: 20%;
+   border-right: inherit;
+   margin-left: 50%;
+   ;
+}
+.reviews{
+    margin-right: 30%;
+    margin-top: 1%;
+}
+.restaurants button{
+    font-size: 25px;
+    margin-top: 10%;
+    border-right: inherit;
+    border-bottom: solid;
+    text-align: center;
+}
+.cities {
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.cities button{
+    font-size: 25px;
+    margin-top: 20%;
+    border-right: inherit;
+    border-bottom: solid;
+}
+
+.uvasignup {
+    border-bottom: inherit;
+    font-family:fantasy;
+    background-color: inherit;
+    border-bottom-width: 3px;
+    margin-top: 15px;
+   
+}
+.uvasignup h2{
+    margin-left: 5%;
+    background-color:none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    color: lightblue;
+}
+
+/* .usercard {
+    background-color:inherit;
+    margin-left: 750px;
+    width: 70%;
+    height: 250px;
+    margin-top: 30px;
+
+} */
+
+
+.outterDiv{
+    text-align: center;
+    float: center;
+}
+.outterDiv button {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 650px;
+    background-color: inherit;
+    width: 95px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.cards {
+    margin-right: 300px;
+    background-color: inherit;
+    padding-left: 3%;
+    text-align: center;
+    border-radius: 40px;
+    padding-top: 10px;
+    justify-content: center;
+    margin-top: 5%;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+.containers img {
+    text-align: center;
+}
+
+.profilebutton{
+    text-align: center;
+}
+.profilebutton button {
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    background-color: black;
+    color: white;
+}
+.message {
+ text-align: center;
+ justify-content: center;
+}
+.message img{
+    width: 50px;
+   
+}
+.message p{
+   text-align: center;
+   justify-content: center;
+   margin-left: 18%;
+   font-weight: bold;
+   color: purple;
+   font-size: 120%;
+}
+
+.pendingbutton button{
+    width: 50%;
+    height: 40px;
+    border-right: inherit;
+    border-bottom: inherit;
+    background-color: #f5f5f5;
+    color: lightskyblue;
+    font-size: 20px;
+}
+.card {
+
+background-color: white;
+    text-align: center;
+    justify-content: center;
+  
+    width: 300px;
+    height: 400px;
+    margin-left: 700px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 10px rgba(32, 32, 32, 0.7)
+}
+ .card:hover{
+    box-shadow: 0 0 20px 10px rgba(114, 170, 192, 0.7);
+} 
+.card p{
+    background-color: inherit;
+    margin-top: 10px;
+}
+.card img{
+    margin-top: 20px;
+    width: 80%;
+    height: 50px;
+}
+.cityimage {
+    background-color: inherit;
+    margin-top: 40px;
+    text-align: left;
+}
+.cityimage object{
+   
+    text-align: center;
+    width: 220px;
+    height: 250px;
+    background-color: inherit;
+    padding-left: 12px;
+    margin-left: 15px;
+}
+
+.cityimage img{
+   
+    text-align: center;
+    width: 210px;
+    height: 250px;
+    background-color: inherit;
+    padding-left: 10px;
+    
+}
+.card img{
+    background-color: blue;
+    border-radius: 50%;
+    height:300px;
+}
+.sendmess {
+    text-align: center;
+    border-top: inherit;
+}
+.sendmess input{
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-bottom:solid;
+    border-color: purple;
+    color:'white';
+    width: 25%;
+    font-weight: bold;
+}
+.container {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.containers {
+    text-align: left;
+    justify-content: center;
+
+}
+.cards p{
+    background-color: inherit;
+    margin-bottom: 10px;
+   
+}
+.cards img{
+    width: 300px;
+   margin-right: 400px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: inherit;
+    text-align: center;
+    border-radius: 150px;
+    margin-top: 3;
+    
+}
+
+
+.usercard p{
+    margin-top: 10px;
+    
+}
+.connectbutton {
+    text-align: center;
+}
+.connectbutton button{
+    width: 10%;
+    
+     background-color: lightgrey;
+     border-radius: 30px;
+     border-style: double;
+     border-color:black;
+     font-weight: bold ;
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+ 
+  .form-container h1{
+      background-color: white;
+      text-align: left;
+      color: blue;
+      margin-bottom: 15px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .form-container {
+    max-width: 350px;
+    margin-top: 40%;
+    padding: 10px;
+    height: 240px;
+    float: center;
+    padding-right: 20px;
+    margin-right: 300px;
+    border-radius: 25px;
+    
+    margin-bottom: 50px;
+    background-color:white;
+  }
+  /* .form-popup {
+    display: none;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid black;
+    z-index: 9;
+  } */
+  .form-container textarea {
+    width: 85%;
+    padding-left: 10px;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: solid;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 80px;
+  }
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .messwrapper{
+      margin-left: 10%;
+   
+  }
+  .form-container .btn {
+    background-color: blue;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 3px;
+    border: solid;
+    cursor: pointer;
+    width: 55%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  .form-container label {
+      margin-top: 10px;
+      text-align: center;
+      background-color: inherit;
+  }
+ .messcard {
+     text-align: center;
+     width: 500px;
+ }
+ b {
+     background-color: white;
+     float: center;
+     color: blue;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .signupwrapper {
+    background-image: url("https://emerging-europe.com/wp-content/uploads/2019/03/bigstock-gorgeous-spring-countryside-la-280866130-990x556.jpg");
+    height: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signinwrapper {
+    background-image: url("https://emerging-europe.com/wp-content/uploads/2019/03/bigstock-gorgeous-spring-countryside-la-280866130-990x556.jpg");
+    height: 100%;
+    background-position:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.morecheap{
+    text-align: center;
+    justify-content: center;
+}
+.morecheap button {
+    color: ivory;
+    height: 35px;
+    background-color: black;
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.address p{
+    background-color: inherit;
+    text-align: right;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+.address{
+    background-color: inherit;
+   
+}
+
+.citycard{
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 3%;
+    border-style: solid;
+    height: 330px;
+    width: 1000px;
+    background-color: inherit;
+}
+
+.citycard h2{
+    margin-right: 5px;
+    text-align: left;
+    background-color:#f5f5f5;
+    margin-top: 15px;
+}
+.citycard hr{
+    border-top:solid;
+    color: black;
+}
+
+.citycards {
+    height: 350px;
+}
+
+
+.homesearch p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.homesearchs p{
+    background-color: inherit;
+}
+.homesearchs button{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    background-color: inherit;
+    width: 95px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.filterhr {
+    margin-top: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.mainsearch {
+    text-align: center;
+}
+.mainsearch button:hover{
+    background-color: white;
+}
+
+.mainsearch p{
+   font-weight: bold;
+   font-size: 25px;
+   color: black;
+}
+.chart {
+    
+    width: 400px;
+    margin-left: -10%;
+    margin-top: 12%;
+    
+}
+.divchart {
+    height: 120%;
+    background-color: lightskyblue;
+}
+
+.fullName h3{
+    padding-left: 40%;
+    margin-top: 12%;
+}
+.fullName p{
+    padding-left: 40%;
+    margin-top: 12%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: inherit;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  li a:hover:not(.active) {
+    border-bottom: 3px solid lightskyblue;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  li h2{
+      margin-left: 15px;
+      font-size: 50px;
+  }
+  li h4{
+      float: right;
+  }
+
+  .topnav-right {
+    float: right;
+    overflow: hidden;
+    margin-top: -60px;
+    padding-right: 10px;
+    
+  }
+  .topnav-right h4{
+      margin-top: 15px;
+      color: red;
+      
+  }
+  .topnav-right p{
+    margin-right: 10px;
+    margin-top: 10px;
+background-color: #4CAF50;    
+}
+ 
+
+  .topnav {
+   padding-bottom: 10px;
+    overflow: hidden;
+}
+.topnav h2{
+    float: left;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    border-bottom: 3px solid lightskyblue;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
